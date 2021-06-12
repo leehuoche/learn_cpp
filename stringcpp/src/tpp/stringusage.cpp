@@ -248,7 +248,7 @@ void str_insert() {
 	cout << stuf << kk<< endl;
 }
 
-int main() {
+int string_main() {
 	//string_constructor();
 	//read_file();
 	//hanman();

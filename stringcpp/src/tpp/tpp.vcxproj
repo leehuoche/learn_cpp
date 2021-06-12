@@ -158,7 +158,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="algousage.cpp" />
     <ClCompile Include="stringusage.cpp" />
+    <ClCompile Include="vectorusage.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
