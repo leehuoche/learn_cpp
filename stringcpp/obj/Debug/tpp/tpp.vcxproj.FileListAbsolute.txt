@@ -1,0 +1,2 @@
+F:\gitfile\learn_cpp\stringcpp\obj\Debug\tpp\tpp.exe
+F:\gitfile\learn_cpp\stringcpp\obj\Debug\tpp\tpp.pdb
