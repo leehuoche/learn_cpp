@@ -21,8 +21,61 @@
     <ClCompile Include="vectorusage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="timu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c26.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hwstack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="algousage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="checkstr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="typelen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tp11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="t12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tp131.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tp133.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tp147.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="string2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tp131.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tp133.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -179,10 +179,75 @@ void ilist() {
 	cout << "\n list 2:sum= " << sum(dl);
 }
 
-int main() {
+
+
+class huma {
+public:
+	~huma() {
+		cout << "humal del" << endl;
+	}
+	void dis() {
+		cout << "dis huma" << endl;
+	}
+};
+
+class man : public huma{
+public:
+	~man() {
+		cout << "man del" << endl;
+	}
+	void dis() {
+		cout << "dis man" << endl;
+	}
+};
+
+
+void testclass() {
+	huma* a = new man;
+	a->dis();
+	delete a;
+	return;
+}
+
+
+
+void testconst() {
+	int const s1 = 2;
+	int a[s1] = { 0 };
+
+	int tt = 0;
+	cin >> tt;
+	/*int const s2 = tt;
+	int b[s2];*/
+}
+
+
+class A { int a; 
+
+void kk() {
+	int b;
+}
+
+};
+
+void testsize() {
+	int a=sizeof(A) ;
+	int c;
+	//int b=sizeof() ;
+
+}
+
+
+int mainr() {
 	//listremove();
 	//usealgo();
 	//valvectro();
 	//vslice();
-	ilist();
+	//ilist();
+	/*char kk[] = "world";
+	int k2[] = { 1,2,3,4,5 };
+	cout << sizeof(k2) << endl;*/
+	//testclass();
+	testsize();
+	return 0;
 }

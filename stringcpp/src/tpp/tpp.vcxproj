@@ -95,6 +95,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -110,6 +111,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,6 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +149,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -159,8 +163,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algousage.cpp" />
+    <ClCompile Include="c26.cpp" />
+    <ClCompile Include="checkstr.cpp" />
+    <ClCompile Include="hwstack.cpp" />
+    <ClCompile Include="mlist.cpp" />
+    <ClCompile Include="msg.cpp" />
+    <ClCompile Include="string2.cpp" />
     <ClCompile Include="stringusage.cpp" />
+    <ClCompile Include="t12.cpp" />
+    <ClCompile Include="timu.cpp" />
+    <ClCompile Include="tp11.cpp" />
+    <ClCompile Include="tp131.cpp" />
+    <ClCompile Include="tp133.cpp" />
+    <ClCompile Include="tp147.cpp" />
+    <ClCompile Include="typelen.cpp" />
     <ClCompile Include="vectorusage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mlist.h" />
+    <ClInclude Include="string2.h" />
+    <ClInclude Include="tp131.h" />
+    <ClInclude Include="tp133.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

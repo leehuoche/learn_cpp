@@ -1,3 +1,4 @@
-﻿  algousage.cpp
+﻿  tp147.cpp
+F:\gitfile\learn_cpp\stringcpp\src\tpp\tp147.cpp(372,32): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
   tpp.vcxproj -> F:\gitfile\learn_cpp\stringcpp\src\tpp\..\..\obj\Debug\tpp\tpp.exe
   已复制         1 个文件。
