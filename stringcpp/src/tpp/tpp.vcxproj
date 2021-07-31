@@ -165,6 +165,8 @@
     <ClCompile Include="algousage.cpp" />
     <ClCompile Include="c26.cpp" />
     <ClCompile Include="checkstr.cpp" />
+    <ClCompile Include="designPattern.cpp" />
+    <ClCompile Include="gelst.cpp" />
     <ClCompile Include="hwstack.cpp" />
     <ClCompile Include="mlist.cpp" />
     <ClCompile Include="msg.cpp" />
@@ -176,6 +178,7 @@
     <ClCompile Include="tp131.cpp" />
     <ClCompile Include="tp133.cpp" />
     <ClCompile Include="tp147.cpp" />
+    <ClCompile Include="tt1.cpp" />
     <ClCompile Include="typelen.cpp" />
     <ClCompile Include="vectorusage.cpp" />
   </ItemGroup>

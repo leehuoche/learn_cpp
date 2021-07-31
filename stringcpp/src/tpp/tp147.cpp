@@ -380,7 +380,7 @@ public:
 };
 
 
-int main()
+int main147()
 {
     using namespace std;
     int ct, i;

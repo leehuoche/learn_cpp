@@ -63,6 +63,15 @@
     <ClCompile Include="tp147.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="gelst.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tt1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="designPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mlist.h">
